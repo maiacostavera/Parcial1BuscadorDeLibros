@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Imagen que se muestra mientras baja la portada, y tambien cuando el libro
+     directamente no tiene una cargada en Open Library.
+     El viewport es 48x72 (misma proporcion 2:3 que las portadas) para que no
+     se deforme con el scaleType centerCrop. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="72dp"
+    android:viewportWidth="48"
+    android:viewportHeight="72">
+
+    <!-- Fondo -->
+    <path
+        android:fillColor="#E4E7EC"
+        android:pathData="M0,0 L48,0 L48,72 L0,72 Z" />
+
+    <!-- Libro abierto: dos paginas que se juntan en el centro -->
+    <path
+        android:fillColor="#AAB2BD"
+        android:pathData="M11,25 L23,28 L23,48 L11,45 Z" />
+    <path
+        android:fillColor="#AAB2BD"
+        android:pathData="M37,25 L25,28 L25,48 L37,45 Z" />
+</vector>

@@ -1,0 +1,30 @@
+<resources>
+    <!-- Todos los textos visibles van aca y no sueltos en los XML,
+         asi quedan en un solo lugar. Se usan con @string/nombre o getString(). -->
+    <string name="app_name">Buscador de Libros</string>
+
+    <!-- Pantalla 1: buscador y lista -->
+    <string name="title_main">Buscador de Libros</string>
+    <string name="hint_search">Título o autor</string>
+    <string name="button_search">Buscar</string>
+    <string name="message_start">Buscá un libro por título o autor para empezar.</string>
+    <string name="error_empty_query">Escribí algo para buscar</string>
+
+    <!-- Pantalla 2: detalle -->
+    <string name="label_pages">Páginas</string>
+    <string name="label_publishers">Editoriales</string>
+    <string name="label_subjects">Temas</string>
+    <string name="button_open_web">Ver en Open Library</string>
+    <string name="button_back">Volver a la lista</string>
+    <string name="error_no_browser">No hay ningún navegador instalado</string>
+
+    <!-- Datos del libro -->
+    <string name="year_format">Primera publicación: %1$d</string>
+    <string name="list_with_more_format">%1$s y %2$d más</string>
+    <string name="unknown_author">Autor desconocido</string>
+    <string name="unknown_year">Año de publicación desconocido</string>
+    <string name="not_available">No disponible</string>
+
+    <!-- Descripciones para lectores de pantalla -->
+    <string name="cd_book_cover">Portada del libro</string>
+</resources>

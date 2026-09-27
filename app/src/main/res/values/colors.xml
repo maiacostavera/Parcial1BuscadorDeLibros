@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Paleta de la app (azul biblioteca). Las variantes _dark las usa el tema
+         de modo oscuro, en values-night/themes.xml -->
+    <color name="brand_primary">#1F5B8F</color>
+    <color name="brand_primary_container">#D2E4FF</color>
+    <color name="brand_on_primary_container">#001D35</color>
+
+    <color name="brand_primary_dark">#9FCAFF</color>
+    <color name="brand_primary_container_dark">#00436E</color>
+    <color name="brand_on_primary_container_dark">#D2E4FF</color>
+</resources>
